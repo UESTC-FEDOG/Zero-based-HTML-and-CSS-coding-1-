@@ -163,14 +163,30 @@ ul {
 .subSec form li {
 	display: block;
 }
+
+.subSec form li:after {
+	display: block;
+	line-height: 0;
+	content: "";
+	visibility: hidden;
+	clear: both;
+}
+
 .subSec form label {
 	float: left;
 	text-align: right;
 	width: 120px;
+	margin-right: 10px;
+}
+
+.sub {
+	margin-left: 130px;
+	color: gray;
+	margin-bottom: 20px;
 }
 
 #comfirm {
 	width: 100%;
-	background-color: blue;
+	background-color: #2196F3;
 	color: white;
 }
