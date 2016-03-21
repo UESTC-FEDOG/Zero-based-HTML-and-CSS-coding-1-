@@ -69,6 +69,7 @@ body {
 section {
 	background-color: white;
 	margin: 20px 20px;
+	box-shadow: 2px 2px gray;
 }
 
 article {
@@ -143,6 +144,12 @@ ul {
 
 .table tfoot {
 	background-color: gray;
+}
+
+.subSec {
+	box-shadow: 2px 2px gray;
+	background-color: white;
+	margin: 20px;
 }
 
 .subSec h3{
